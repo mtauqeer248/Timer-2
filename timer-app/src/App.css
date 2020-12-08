@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./pexels-jordan-benton-1095601.jpg');
+  background-size: cover;
+
+  
+}
+
+.App h1 {
+  font-size: 40px;
+  margin-top: 5%;
+  color: #eaec76;
+}
+
+.timer {
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.displayTimer {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  color:yellow;
+}
+
+.displayTimer span {
+  font-size: 40px;
+  margin: auto 10px;
+}
+
+
+.displayButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 10px;
+  color:yellowgreen;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
